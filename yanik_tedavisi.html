@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yanık Tedavisi | Doğal Destek</title>
+  <link rel="stylesheet" href="css/yanik_tedavisi.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Sol Menü -->
+    <aside class="sidebar">
+      <div class="logo-container">
+        <h1 class="logo">🌿 Doğal Destek</h1>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html"><span>🏠</span> Ana Sayfa</a>
+        <a href="yanik_tedavisi.html" class="active"><span>🩹</span> Yanık Tedavisi</a>
+        <a href="kas_agrilari.html"><span>🏃</span> Kas Ağrıları</a>
+        <a href="bitkisel_caylar.html"><span>🍵</span> Bitkisel Çaylar</a>
+        <a href="uyku_kalitesi.html"><span>🌙</span> Uyku Kalitesi</a>
+      </nav>
+    </aside>
+
+    <!-- Ana İçerik -->
+    <main class="main-content">
+      <section class="icerik-kutu">
+        <h2>Yanık Tedavisi</h2>
+        <p>
+          Yanıklar, günlük yaşamda sıkça karşılaşılan yaralanmalardan biridir ve bazen ciddiyetini anlamak oldukça zor olabilir. Ancak, erken müdahale ve doğru tedavi yöntemleriyle, hem iyileşme süreci hızlandırılabilir hem de enfeksiyon gibi olumsuz durumların önüne geçilebilir. Yanıkların tedavisi, yanığın derecesine göre değişiklik gösterir. İlk müdahalede doğru adımlar atmak, uzun vadede daha sağlıklı bir iyileşme süreci için kritik öneme sahiptir.
+        </p>
+        <div class="yanik-gorselleri">
+          <img src="img/yanık1.jpg" alt="Yanık 1" class="yanik-gorsel">
+          <img src="img/yanık2.jpg" alt="Yanık 2" class="yanik-gorsel">
+          <img src="img/yanık3.jpg" alt="Yanık 3" class="yanik-gorsel">
+        </div>
+      </section>
+
+      <!-- Yanık Derecesi Anketi -->
+      <section class="anket-kutu">
+        <h2>Yanık Derecenizi Öğrenin</h2>
+        <p>Yanık durumunuzu belirlemek için aşağıdaki soruları cevaplayın.</p>
+        <form id="yanik-form">
+          <label for="renk">Yanığınızın rengi nedir?</label>
+          <div class="radio-grup">
+            <input type="radio" id="kirmizi" name="renk" value="kirmizi" required> Kırmızı
+            <input type="radio" id="beyaz" name="renk" value="beyaz"> Beyaz
+            <input type="radio" id="siyah" name="renk" value="siyah"> Siyah
+          </div>
+
+          <label for="kabarcik">Yanık bölgesinde kabarcık var mı?</label>
+          <div class="radio-grup">
+            <input type="radio" id="evet" name="kabarcik" value="evet" required> Evet
+            <input type="radio" id="hayir" name="kabarcik" value="hayir"> Hayır
+          </div>
+
+          <label for="agri">Yanığınızın ağrı seviyesi nedir?</label>
+          <div class="radio-grup">
+            <input type="radio" id="hafif" name="agri" value="hafif" required> Hafif
+            <input type="radio" id="orta" name="agri" value="orta"> Orta
+            <input type="radio" id="siddetli" name="agri" value="siddetli"> Şiddetli
+          </div>
+
+          <button type="submit" id="gonder">Yanık Derecesini Öğren</button>
+        </form>
+        <p id="sonuc"></p>
+      </section>
+
+<!-- Bilgi Kartları -->
+<section class="bilgi-kartlari">
+  <!-- 1. Derece Yanık Kartı -->
+  <div class="kart">
+    <h3>1. Derece Yanık</h3>
+    <p><strong>Tanım:</strong><br>1. derece yanık, cilt yüzeyinde meydana gelir. Bu tür yanıklarda cilt genellikle kırmızıya döner ve hafif bir ağrı hissedilir. Yanık bölgesinde kabarcıklar oluşmaz. Genellikle birkaç saat içinde iyileşir ve kalıcı iz bırakmaz.</p>
+    
+    <p><strong>Nasıl Tedavi Edilir?</strong><br>Aloe vera ve soğuk su ile tedavi edilebilir.</p>
+
+    <h4>Aloe Vera</h4>
+    <p><strong>Nasıl Kullanılır?</strong><br>Aloe vera jelini doğrudan yanık bölgesine uygulayın. Cildinizde rahatlama hissi oluşana kadar bekleyin. Bu, ağrıyı hafifletir ve cildin iyileşmesine yardımcı olur.</p>
+
+    <h4>Soğuk Su</h4>
+    <p><strong>Nasıl Kullanılır?</strong><br>Yanık bölgesine soğuk su uygulamak, ciltteki aşırı ısının hızla düşmesini sağlar. Soğuk su, yanık bölgesinde ağrıyı hafifletir ve iltihap oluşumunu engelleyebilir. Yanık bölgesine birkaç dakika boyunca soğuk su uygulayın.</p>
+  </div>
+
+  <!-- 2. Derece Yanık Kartı -->
+  <div class="kart">
+    <h3>2. Derece Yanık</h3>
+    <p><strong>Tanım:</strong><br>2. derece yanık, cilt yüzeyinin altındaki daha derin katmanları etkiler. Ciltte kırmızılaşma, şişlik ve genellikle kabarcıklar oluşur. Bu tür yanıklar şiddetli ağrıya neden olabilir ve daha uzun süre iyileşebilir.</p>
+    
+    <p><strong>Nasıl Tedavi Edilir?</strong><br>Bal, 1. derece ve küçük 2. derece yanıklarda etkili olabilir.</p>
+
+    <h4>Bal</h4>
+    <p><strong>Nasıl Kullanılır?</strong><br>Bal, antibakteriyel özelliklere sahip olup, enfeksiyon riskini azaltmaya yardımcı olabilir. Balı temiz bir parmakla yanık bölgesine ince bir tabaka halinde sürün. Bu işlemi günde birkaç kez tekrarlayın. Balın içerdiği antioksidanlar, iyileşme sürecini hızlandırarak ağrıyı hafifletebilir.</p>
+  </div>
+
+  <!-- 3. Derece Yanık Kartı -->
+  <div class="kart kart-uyari">
+    <h3>⚠️ 3. Derece Yanık</h3>
+    <p><strong>Tanım:</strong><br>3. derece yanıklar, cilt ve altındaki tüm dokuları etkiler. Bu tür yanıklar çok ciddi olup, cilt tamamen yanmış ve siyahlaşmış olabilir. Sinir uçları da zarar görebileceği için ağrı hissi bazen oluşmayabilir. Derhal acil tıbbi müdahale gerektirir.</p>
+
+    <p><strong>Dikkat:</strong> 3. derece yanıklar, ciddi doku tahribatına neden olur ve tedavi için profesyonel tıbbi yardım alınması gerekmektedir. Bu tür yanıklarda <strong>doğal yöntemler</strong> etkili değildir. Derhal bir sağlık kuruluşuna başvurmanız gerekmektedir.</p>
+    <p style="color: #c0392b; font-weight: bold;">Acilen doktora veya hastaneye gidiniz.</p>
+  </div>
+</section>
+
+<!-- Kullanıcı Yorumları (Başlık ve Buton) -->
+<section class="yorumlar">
+  <h3 style="margin-bottom: 0;">Kullanıcı Yorumları</h3>
+  <button onclick="yorumlariGoster()" id="yorumBtn">Yorumları Göster</button>
+
+  <div id="yorumIcerik" style="display: none; margin-top: 15px;">
+    <div class="yorum-karti">
+  <strong>idil_yvz</strong>
+  <p>Geçen hafta kolumda oluşan hafif bir yanık için buradaki önerileri denemeye karar verdim. Özellikle aloe vera tavsiyesi çok etkili oldu. İlk uygulamadan sonra bile cildimdeki yanma hissi azaldı ve kızarıklık birkaç gün içinde tamamen geçti. Sayenizde ilaç kullanmadan doğal bir çözümle iyileştim. Çok teşekkür ederim!</p>
+</div>
+
+<div class="yorum-karti">
+  <strong>beril_17</strong>
+  <p>Yanık derecesini öğrenme testi çok faydalıydı. Öncesinde ne yapmam gerektiğini bilmiyordum ama soruları cevapladıktan sonra 2. derece yanık yaşadığımı fark ettim. Bal önerisini uyguladım ve hem ağrım hafifledi hem de iyileşme süreci hızlandı. Bilgilendirme kartları çok açıklayıcı, böyle bir içerik sunduğunuz için minnettarım.</p>
+</div>
+
+<div class="yorum-karti">
+  <strong>gizliyorumcu</strong>
+  <p>Ocakta yemek yaparken elimi yaktım ve sayfanızdaki bilgileri denemek istedim. İlk olarak soğuk su önerisini uyguladım, ardından aloe vera jeli sürdüm. Sadece fiziksel olarak değil, psikolojik olarak da rahatladım çünkü ne yapacağımı bilmek insanı güvende hissettiriyor. Gerçekten sade ama etkili bilgilerle dolu bir sayfa. Emeği geçenlere teşekkür ederim.</p>
+</div>
+
+  </div>
+</section>
+
+
+      <footer>
+        <p>© 2025 Doğal Destek | Hazırlayan: [İlayda Mercan]</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="js/yanik_tedavisi.js"></script>
+</body>
+</html>
+
