@@ -1,2 +1,2 @@
 ## 🌐 Canlı Demo
-https://ilaydamrcnn.github.io/Dogal-Yasam-Onerileri/
+https://github.com/ilaydamrcnn/Dogal-Yasam-Onerileri
